@@ -1,0 +1,61 @@
+{
+  "intents": [
+    {
+      "tag": "saudações",
+      "patterns": [
+        "oi",
+        "ola",
+        "olá",
+        "bom dia",
+        "boa tarde",
+        "boa noite",
+        "como vai?",
+        "como está?",
+        "tudo bem?",
+        "eai",
+        "eae",
+        "eaei",
+        "eaeia",
+        "eae fiote",
+        "salve",
+        "olá, tudo bem?",
+        "ola, tudo bem?",
+        "oi, tudo bem?"
+      ],
+
+      "responses": [
+        "Fala chefe",
+        "oi, tudo bem?",
+        "ola, tudo bem?",
+        "salve cria",
+        "eae"
+      ]
+    },
+    {
+      "tag": "idade",
+      "patterns": [
+        "qual a sua idade?",
+        "quantos anos vc tem?",
+        "Quando voce nasceu?"
+      ],
+      "responses": ["Eu nasci ontem *-*"]
+    },
+
+    {
+      "tag": "Qual o seu nome?",
+      "patterns": ["qual seu nome?", "Como você se chama?"],
+      "responses": ["Eu sou o PyFriend :D"]
+    },
+    
+    {
+        "tag": "idade",
+        "patterns": [
+          "qual a sua idade?",
+          "quantos anos vc tem?",
+          "Quando voce nasceu?"
+        ],
+        "responses": ["Eu nasci ontem *-*"]
+      }
+
+  ]
+}
