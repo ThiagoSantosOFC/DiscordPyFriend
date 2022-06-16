@@ -48,14 +48,12 @@
     },
     
     {
-        "tag": "idade",
+        "tag": "criou",
         "patterns": [
-          "qual a sua idade?",
-          "quantos anos vc tem?",
-          "Quando voce nasceu?"
+          "quem te criou?",
+          "Quem te fez?"
         ],
-        "responses": ["Eu nasci ontem *-*"]
+        "responses": ["Meu Deus criador foi o Thiago ;)"]
       }
-
   ]
 }
